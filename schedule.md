@@ -1,0 +1,1 @@
+Team Meeting Schedule: Every Friday at 8:00 PM BDT
