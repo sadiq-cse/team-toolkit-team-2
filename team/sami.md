@@ -10,3 +10,18 @@
       </li>
    </big>
 </ul>
+
+<br>
+
+# Technical Skills
+
+<ul>
+   <big>
+      <li>
+        <b>Languages: </b> C, C++, Java <br>
+      </li>
+      <li>
+        <b>Tools: </b> Visual Studio Code, Git, Github Desktop
+      </li>
+   </big>
+</ul>
