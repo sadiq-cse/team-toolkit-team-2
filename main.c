@@ -17,9 +17,30 @@ void unit_converter() {
 // ==========================================
 // SADIQ (MAINTAINER LEAD) FEATURES
 // ==========================================
+C
 void gpa_calculator() {
-    printf("\nGPA Calculator feature coming soon.\n");
+    int n, i;
+    double credit, gp, total_points = 0.0, total_credits = 0.0;
+    printf("\n--- Semester GPA Calculator ---\n");
+    printf("Enter number of courses: ");
+    scanf("%d", &n);
+
+    for (i = 1; i <= n; i++) {
+        printf("Course %d credit hours: ", i);
+        scanf("%lf", &credit);
+        printf("Course %d grade point (0.00 - 4.00): ", i);
+        scanf("%lf", &gp);
+        total_points += (credit * gp);
+        total_credits += credit;
+    }
+
+    if (total_credits > 0) {
+        printf("Semester GPA: %.2lf\n", total_points / total_credits);
+    } else {
+        printf("Total credits must be greater than zero.\n");
+    }
 }
+
 
 void todo_manager() {
     printf("\nTo-Do List Manager feature coming soon.\n");
