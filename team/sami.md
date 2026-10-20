@@ -25,3 +25,14 @@
       </li>
    </big>
 </ul>
+
+<br>
+
+# Assigned Team Toolkit Features
+
+<ol>
+   <big>
+     <li>Basic Arithmetic Calculator (Issue #1)</li>
+     <li>Unit Converter — Distance & Temperature (Issue #2)</li>
+   </big>
+</ol>
