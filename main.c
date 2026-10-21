@@ -38,8 +38,26 @@ void basic_calculator() {
 }
 
 void unit_converter() {
-    printf("\nUnit Converter feature coming soon.\n");
+    int sub;
+    double val;
+    
+    printf("\n--- Unit Converter ---\n");
+    printf("1. Kilometers to Miles\n");
+    printf("2. Celsius to Fahrenheit\n");
+    printf("Select conversion (1/2): ");
+       scanf("%d", &sub);
+    printf("Enter value to convert: ");
+       scanf("%lf", &val);
+
+    if (sub == 1) {
+         printf("%.2lf km = %.2lf miles\n", val, val * 0.621371);
+    } else if (sub == 2) {
+         printf("%.2lf C = %.2lf F\n", val, (val * 9.0 / 5.0) + 32.0);
+    } else {
+         printf("Invalid selection.\n");
+    }
 }
+
 
 // ==========================================
 // SADIQ (MAINTAINER LEAD) FEATURES
