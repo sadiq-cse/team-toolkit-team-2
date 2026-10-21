@@ -7,7 +7,34 @@
 // SAMI (DEVELOPER LEAD) FEATURES
 // ==========================================
 void basic_calculator() {
-    printf("\nCalculator feature coming soon.\n");
+    double a, b;
+    char op;
+    
+    printf("\n--- Basic Arithmetic Calculator ---\n");
+    printf("Enter expression (e.g., 10 + 5): ");
+    
+    if (scanf("%lf %c %lf", &a, &op, &b) != 3) {
+        while (getchar() != '\n');
+        printf("Invalid numeric input.\n");
+        return;
+    }
+    
+    if (op == '+') {
+           printf("Result: %.2lf\n", a + b);
+    } else if (op == '-') {
+           printf("Result: %.2lf\n", a - b);
+    } else if (op == '*') {
+           printf("Result: %.2lf\n", a * b);
+    } else if (op == '/') {
+        if (b == 0) {
+             printf("Error: Division by zero!\n");
+        } else {
+             printf("Result: %.4lf\n", a / b);
+        }
+    } else {
+        printf("Invalid operator.\n");
+    }
+
 }
 
 void unit_converter() {
