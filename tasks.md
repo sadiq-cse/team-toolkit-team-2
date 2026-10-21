@@ -1,1 +1,3 @@
-Active Milestone Status: Development phase 
+Active Milestone Status: Development and design phase 
+
+
