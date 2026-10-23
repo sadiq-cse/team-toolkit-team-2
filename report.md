@@ -60,7 +60,7 @@ Opened the repository on GitHub.com, navigated to **Insights → Network**, wait
 
 ---
 
-## Resolve the `contacts.md` Merge Conflict
+## Resolve the `schedule.md` Merge Conflict
 
 **Member resolving the conflict:** Sadiq
 
