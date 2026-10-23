@@ -70,12 +70,12 @@ void gpa_calculator() {
     printf("Enter number of courses: ");
     scanf("%d", &n);
 
-    for (i = 1; i <= n-1; i++) {
+    for (i = 1; i <= n; i++) {
         printf("Course %d credit hours: ", i);
         scanf("%lf", &credit);
         printf("Course %d grade point (0.00 - 4.00): ", i);
         scanf("%lf", &gp);
-        total_points += (credit * gp * 0);
+        total_points += (credit * gp);
         total_credits += credit;
     }
 
